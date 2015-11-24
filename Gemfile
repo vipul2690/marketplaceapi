@@ -57,3 +57,7 @@ group :test do
 end
 
 gem 'devise'
+gem 'compass-rails'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
