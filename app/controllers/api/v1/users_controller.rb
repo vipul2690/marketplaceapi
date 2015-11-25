@@ -1,6 +1,7 @@
 class Api::V1::UsersController < ApplicationController
 
   respond_to :json
+  before_create :generate_authentication_token!
 
   def show
     respond_with User.find(params[:id])
@@ -36,5 +37,6 @@ class Api::V1::UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:email, :password, :password_confirmation)
   end
+
 
 end
