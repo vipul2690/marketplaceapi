@@ -10,7 +10,7 @@ end
 
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '>= 4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -60,7 +60,8 @@ group :development, :test do
 end
 
 gem 'devise'
-gem 'compass-rails'
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.2'
 gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
