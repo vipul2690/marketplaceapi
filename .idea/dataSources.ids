@@ -6,4 +6,7 @@
   <data-source source="LOCAL" name="Rails marketplaceapi: test" uuid="b1ec2036-2fac-4175-a6e0-210d2a81db48">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails marketplaceapi: production" uuid="62250593-97e0-4b73-943c-5f583b7a729d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

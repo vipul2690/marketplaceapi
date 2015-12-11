@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3696364049">
+  <component name="DataSourceManagerImpl" format="xml" hash="3571475401">
     <data-source source="LOCAL" name="Rails marketplaceapi: development" uuid="74a9c27c-bca6-4aaa-919e-58c6205e2304">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -11,6 +11,13 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails marketplaceapi: production" uuid="62250593-97e0-4b73-943c-5f583b7a729d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:blog_development</jdbc-url>
+      <user-name>blog</user-name>
       <libraries />
     </data-source>
   </component>
