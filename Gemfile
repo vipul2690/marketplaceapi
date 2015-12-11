@@ -59,6 +59,10 @@ group :development, :test do
   gem 'ffaker'
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'devise'
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'compass-rails', '~> 2.0.2'
